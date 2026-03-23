@@ -1,11 +1,12 @@
 var starXPos = [];
 var starYPos = [];
-var star = "⭐️";
+var star = "🌧️";
 var starTotal = 100;
-
+ 
+//emojis
 var planetXPos = [];
 var planetYPos = [];
-var planet = "🪐";
+var planet = "🌂";
 var planetTotal = 3;
 var planetFound = 0;
 
@@ -65,6 +66,13 @@ var display = function(){
     textSize(50);
     text("Press 'r' to restart \nthe game", 50, 200);
   }
+
+var x=40
+while (x < 60){
+  text("☀️", x, 60);
+x += 20;
+}
+
 }
 
 var reset = function(){
