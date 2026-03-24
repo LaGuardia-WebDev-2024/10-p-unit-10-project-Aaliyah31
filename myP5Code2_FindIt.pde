@@ -65,12 +65,39 @@ var display = function(){
     fill(0, 200, 200);
     textSize(50);
     text("Press 'r' to restart \nthe game", 50, 200);
+    textSize(200);
+    text("☂️", 200, 180);
+    
+    //key press additive
+    fill(202, 217, 227);
+    textSize(20);
+    text("or press 's' for surprise", 220, 350)
   }
 
+
+
+textSize(20);
+
+
+//while loop
 var x=40
 while (x < 60){
-  text("☀️", x, 60);
+  text("☀️", x, 20);
 x += 20;
+}
+
+
+//array
+var stuff = [ "its raining find an umbrella", ]
+
+fill(227, 204, 202);
+text( stuff[0], 50 , 380 );
+
+
+
+//for
+for (var x=0; x<600; x+=90){
+  text("⛈️", x, 60)
 }
 
 }
