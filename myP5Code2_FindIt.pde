@@ -74,6 +74,12 @@ var display = function(){
     text("or press 's' for surprise", 220, 350)
   }
 
+//extra key press 
+if(keyPressed){
+  textSize(375);
+if(key == 's'){text("🌈", 50 , 320)}
+}
+
 
 
 textSize(20);
